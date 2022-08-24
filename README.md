@@ -2,4 +2,4 @@
 
 Kodi File Manager Source:
 
-UpKobox.github.io
+ https://UpKobox.github.io
