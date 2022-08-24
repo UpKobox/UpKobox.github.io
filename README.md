@@ -1,5 +1,4 @@
 # UpKobox Alpha Repository
 
-Kodi File Manager Source:
-
+Source du gestionnaire de fichiers Kodi :
  https://UpKobox.github.io
