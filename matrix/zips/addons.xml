@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.sendtokodiU2P" name="U2Pplay" version="0.9.3" provider-name="noway">
+<?xml version='1.0' encoding='utf-8'?>
+<addons><addon id="plugin.video.sendtokodiU2P" name="U2Pplay" version="0.9.3" provider-name="noway">
   <requires>
     <trycatch>
       <try>
-          <import addon="xbmc.python" version="3.0.0"/>
+          <import addon="xbmc.python" version="3.0.0" />
       </try>
       <catch>
-          <import addon="xbmc.python" version="2.25.0"/>
+          <import addon="xbmc.python" version="2.25.0" />
       </catch>
         </trycatch>
-    <import addon="script.module.requests" version="2.12.4"/>
+    <import addon="script.module.requests" version="2.12.4" />
     <import addon="script.module.pyxbmct" />
   </requires>
-  <extension point="xbmc.python.pluginsource" library="service.py" >
+  <extension point="xbmc.python.pluginsource" library="service.py">
   <provides>video</provides>
-    </extension>
+	</extension>
   <extension point="kodi.context.item">
         <menu id="kodi.core.main">
             <item library="menucontext/play.py">
@@ -54,16 +54,16 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">U2Pplay</summary>
     <description lang="en">U2Pplay permet d'importer une base de contenu en 1 clic ou de creer des fichiers strm a partir d'IDs de pastes cryptes puis de les streamer via Kodi. Necessite un compte premium Uptobox ou Alldebrid</description>
-    <disclaimer lang="en"></disclaimer>
+    <disclaimer lang="en" />
     <platform>all</platform>
     <license>MIT License</license>
-    <website></website>
-    <email></email>
-    <source></source>
+    <website />
+    <email />
+    <source />
     <assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
-      <screenshot>screenshot-01.jpg</screenshot>
+	  <screenshot>screenshot-01.jpg</screenshot>
       <screenshot>screenshot-02.jpg</screenshot>
     </assets>
   </extension>
@@ -83,7 +83,7 @@
     <extension point="xbmc.addon.metadata">
         <summary>UpKobox Alpha Repository</summary>
         <description>Un référentiel pour les versions alpha </description>
-        <disclaimer></disclaimer>
+        <disclaimer />
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
