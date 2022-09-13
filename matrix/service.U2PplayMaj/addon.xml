@@ -2,8 +2,6 @@
 <addon id="service.U2PplayMaj" name="U2Pplay Maj HK2 et skin" version="1.0.1" provider-name="CoKodico">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
-
-
     </requires>
     <extension point="xbmc.service" library="U2Pplay.py" start="startup"/>
     <extension point="xbmc.addon.metadata">
