@@ -121,7 +121,7 @@
     <extension point="xbmc.service" library="U2PplayFast.py" start="startup" />
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">U2Pplay</summary>
-        <description lang="en_GB" />
+        <description lang="en_GB">Maj Rapide HK2</description>
         <language />
         <platform>all</platform>
         <license>Apache-2.0</license>
