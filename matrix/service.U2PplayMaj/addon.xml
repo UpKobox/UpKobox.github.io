@@ -5,7 +5,7 @@
     </requires>
     <extension point="xbmc.service" library="U2Pplay.py" start="startup"/>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">U2Pplay</summary>
+        <summary lang="en_GB">U2Pplay HK2</summary>
         <description lang="en_GB">U2Pplay Maj HK2 et skin rafraichissement</description>
         <language></language>
         <platform>all</platform>
@@ -15,7 +15,7 @@
         <email></email>
         <source></source>
         <news></news>
-        <disclaimer></disclaimer>
+        <disclaimer>[COLOR red]ATTENTION UN SEUL ADDON SERVICE DOIT ETRE ACTIF AU DEMARRAGE KODI[/COLOR]</disclaimer>
         <assets>
             <icon>resources/icon.png</icon>
             <fanart>resources/fanart.jpg</fanart>

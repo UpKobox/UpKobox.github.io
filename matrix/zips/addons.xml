@@ -96,7 +96,7 @@
     </requires>
     <extension point="xbmc.service" library="U2Pplay.py" start="startup" />
     <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">U2Pplay</summary>
+        <summary lang="en_GB">U2Pplay HK2</summary>
         <description lang="en_GB">U2Pplay Maj HK2 et skin rafraichissement</description>
         <language />
         <platform>all</platform>
@@ -106,7 +106,7 @@
         <email />
         <source />
         <news />
-        <disclaimer />
+        <disclaimer>[COLOR red]ATTENTION UN SEUL ADDON SERVICE DOIT ETRE ACTIF AU DEMARRAGE KODI[/COLOR]</disclaimer>
         <assets>
             <icon>resources/icon.png</icon>
             <fanart>resources/fanart.jpg</fanart>
@@ -114,13 +114,13 @@
             <screenshot>resources/screenshot-02.jpg</screenshot>
         </assets>
     </extension>
-</addon><addon id="service.U2PplayMajRapide" name="U2Pplay Maj rapide" version="1.0.1" provider-name="CoKodico">
+</addon><addon id="service.U2PplayMajRapide" name="U2Pplay Maj rapide HK2" version="1.0.2" provider-name="CoKodico">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>
     <extension point="xbmc.service" library="U2PplayFast.py" start="startup" />
     <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">U2Pplay</summary>
+        <summary lang="en_GB">U2Pplay HK2</summary>
         <description lang="en_GB">Maj Rapide HK2</description>
         <language />
         <platform>all</platform>
@@ -130,7 +130,7 @@
         <email />
         <source />
         <news />
-        <disclaimer />
+        <disclaimer>[COLOR red]ATTENTION UN SEUL ADDON SERVICE DOIT ETRE ACTIF AU DEMARRAGE KODI[/COLOR]</disclaimer>
         <assets>
             <icon>resources/icon.png</icon>
             <fanart>resources/fanart.jpg</fanart>
