@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<settings>
+    <category label="Maj HK2">
+        <setting label="Maj Auto HK2" type="lsep" />
+        <setting id="intmaj" label="Interval (mins) Service de MAJ (0=desactivé)" type="labelenum" values="0|15|30|45|60" default="0"/>
+        <setting label="Mise en place service de MAJ" type="action" option="close" action="RunPlugin(plugin://plugin.video.sendtokodiU2P/?action=mepautostart2)"/>
+        <setting id="delaimaj" label="Delai 1er MAJ (mins)" type="number" default="0"/>
+        <setting id="rskin" label="Refresh skin aprés MAJ" type="bool" default="false" />
+    </category>
+
+</settings>

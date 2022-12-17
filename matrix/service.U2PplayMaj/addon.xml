@@ -6,7 +6,7 @@
     <extension point="xbmc.service" library="U2Pplay.py" start="startup"/>
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">U2Pplay</summary>
-        <description lang="en_GB"></description>
+        <description lang="en_GB">U2Pplay Maj HK2 et skin rafraichissement</description>
         <language></language>
         <platform>all</platform>
         <license>Apache-2.0</license>
@@ -19,8 +19,8 @@
         <assets>
             <icon>resources/icon.png</icon>
             <fanart>resources/fanart.jpg</fanart>
-            <screenshot>screenshot-01.jpg</screenshot>
-            <screenshot>screenshot-02.jpg</screenshot>
+            <screenshot>resources/screenshot-01.jpg</screenshot>
+            <screenshot>resources/screenshot-02.jpg</screenshot>
         </assets>
     </extension>
 </addon>
