@@ -5,8 +5,8 @@
     </requires>
     <extension point="xbmc.service" library="U2PplayFast.py" start="startup"/>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">U2Pplay Maj Rapide db HK2</summary>
-        <description lang="en_GB">Maj Rapide db HK2 [COLOR red]ATTENTION UN SEUL ADDON SERVICE DOIT ETRE ACTIF AU DEMARRAGE KODI[/COLOR]</description>
+        <summary lang="en_GB">U2P Maj Rapide db HK2</summary>
+        <description lang="en_GB">Maj Rapide HK2  (Auto au lancement Kodi ou Forcé)                      [COLOR red]ATTENTION UN SEUL ADDON SERVICE DOIT ETRE ACTIF AU DEMARRAGE KODI[/COLOR]</description>
         <language></language>
         <platform>all</platform>
         <license>Apache-2.0</license>

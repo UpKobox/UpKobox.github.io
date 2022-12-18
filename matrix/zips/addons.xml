@@ -90,14 +90,14 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="service.U2PplayMaj" name="U2Pplay Maj HK2 et skin" version="1.0.2" provider-name="CoKodico">
+</addon><addon id="service.U2PplayMaj" name="U2Pplay Maj HK2 et skin" version="1.0.3" provider-name="CoKodico">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>
     <extension point="xbmc.service" library="U2Pplay.py" start="startup" />
     <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">U2Pplay Maj db HK2 et Skin rafraichissement</summary>
-        <description lang="en_GB">Maj HK2 et skin rafraichissement [COLOR red]ATTENTION UN SEUL ADDON SERVICE DOIT ETRE ACTIF AU DEMARRAGE KODI[/COLOR]</description>
+        <summary lang="en_GB">U2P Maj db HK2 et Skin </summary>
+        <description lang="en_GB">Maj HK2 et skin rafraichissement (Auto au lancement Kodi ou Forcé)     [COLOR red]ATTENTION UN SEUL ADDON SERVICE DOIT ETRE ACTIF AU DEMARRAGE KODI[/COLOR]</description>
         <language />
         <platform>all</platform>
         <license>Apache-2.0</license>
@@ -120,8 +120,8 @@
     </requires>
     <extension point="xbmc.service" library="U2PplayFast.py" start="startup" />
     <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">U2Pplay Maj Rapide db HK2</summary>
-        <description lang="en_GB">Maj Rapide db HK2 [COLOR red]ATTENTION UN SEUL ADDON SERVICE DOIT ETRE ACTIF AU DEMARRAGE KODI[/COLOR]</description>
+        <summary lang="en_GB">U2P Maj Rapide db HK2</summary>
+        <description lang="en_GB">Maj Rapide HK2  (Auto au lancement Kodi ou Forcé)                      [COLOR red]ATTENTION UN SEUL ADDON SERVICE DOIT ETRE ACTIF AU DEMARRAGE KODI[/COLOR]</description>
         <language />
         <platform>all</platform>
         <license>Apache-2.0</license>
