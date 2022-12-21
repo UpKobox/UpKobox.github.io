@@ -6,10 +6,6 @@
         <setting id="forcemajskin" label="Lancer MAJ Forcée HK2 et Skin rafraîchissement " type="action" action="RunScript(special://home/addons/service.U2PplayMajRapide/U2Pplay.py,True)"/>
         <setting label="Installation AutoMaj HK2" type="lsep" />
         <setting label="Mise en place Addon Service: AutoMaj HK2" type="action" option="close" action="RunPlugin(plugin://plugin.video.sendtokodiU2P/?action=mepautostart2)"/>
-        <setting label="AutoMaj HK2" type="lsep" />
-        <setting id="intmaj" label="Interval AutoMaj: Maj (mins) (0=desactivé)" type="labelenum" values="0|15|30|45|60" default="0"/>
-        <setting id="delaimaj" label="Delai AutoMaj: temps (mins) (au démarrage Kodi)" type="number" default="0"/>
-        <setting id="rskin" label="Refresh Skin aprés AutoMaj" type="bool" default="false" />
     </category>
 
 </settings>
