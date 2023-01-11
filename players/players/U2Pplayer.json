@@ -49,8 +49,8 @@
     "is_resolvable": "true",
     "make_playlist": "upnext",
     "fallback": {
-        "play_movie": "U2Pplayer.json search_movie",
-        "play_episode": "U2Pplayer.json search_episode",
+        "play_movie": "youtube.json play_movie",
+        "play_episode": "youtube.json play_episode",
         "search_movie": "youtube.json play_movie",
         "search_episode": "youtube.json play_episode"
     }
