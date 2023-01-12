@@ -30,12 +30,12 @@
         <setting id="actifalldeb" label="Mon Alldebrid" type="bool" default="false" />
     </category>
     <category label="Général">
-        <setting label="DataBase HK1" type="lsep" />
+        <!-- <setting label="DataBase HK1" type="lsep" />
         <setting id="actifhk" label="Activer HK" type="bool" default="false" />
-        <setting id="numhk" label="Num HK" type="text" default="0000" visible="eq(-1,true)"/>
+        <setting id="numhk" label="Num HK" type="text" default="0000" visible="eq(-1,true)"/>-->
         <setting label="DataBase HK²" type="lsep" />
-        <setting id="actifnewpaste" label="Activer Médiathéque HK²" type="bool" default="false" />
-        <setting id="heberg" label="Hébergeur liste DB" type="labelenum" values="Anotepad|Pastebin|Rentry|Textup|fichier" default="Anotepad"  visible="eq(-1,true)"/>
+        <setting id="actifnewpaste" label="Activer Médiathéque HK²" type="bool" default="true" />
+        <setting id="heberg" label="Hébergeur liste DB" type="labelenum" values="Anotepad|Pastebin|Rentry|Textup|fichier" default="Rentry"  visible="eq(-1,true)"/>
         <setting id="numHeberg" label="Numero Anotepad/Pastebin/Rentry/Textup" type="text" default="" visible="eq(-2,true)"/>
         <setting label="Ajouter contenu" type="action" action="RunPlugin(plugin://plugin.video.sendtokodiU2P/?action=folderPastebin&maj=false)" visible="eq(-3,true)"/>
         <setting label="Reset database" type="action" action="RunPlugin(plugin://plugin.video.sendtokodiU2P/?action=resetBDhkNew)" visible="eq(-4,true)"/>
@@ -73,12 +73,13 @@
     <!-- Installation avancée -->
     <category label="Installation avancée">
         <setting label="Maj HK² & HK" type="lsep" />
-        <!-- <setting id="majhk2" label="Activer la MAJ au restart" type="bool" default="false" /> -->
-        <!-- <setting label="Mise en place de la MAJ au restart KODI" type="action" option="close" action="RunPlugin(plugin://plugin.video.sendtokodiU2P/?action=mepautostart)"/>-->
-        <setting id="intmaj" label="Interval (mins) Service de MAJ (0=desactivé)" type="labelenum" values="0|15|30|45|60" default="0"/>
-        <setting label="Mise en place service de MAJ" type="action" option="close" action="RunPlugin(plugin://plugin.video.sendtokodiU2P/?action=mepautostart2)"/>
-        <setting id="delaimaj" label="Delai 1er MAJ (mins)" type="number" default="0"/>
-        <setting id="rskin" label="Refresh skin aprés MAJ" type="bool" default="false" />
+        <setting label="Configurer Maj (INTERVALLE et DELAI) Choisir" type="action" option="close" action="RunPlugin(plugin://plugin.video.sendtokodiU2P/?action=intmajbann15)"/>
+        <!-- <setting id="majhk2" label="Activer la Maj au restart" type="bool" default="false" /> -->
+        <!-- <setting label="Mise en place de la Maj au restart KODI" type="action" option="close" action="RunPlugin(plugin://plugin.video.sendtokodiU2P/?action=mepautostart)"/>-->
+        <setting id="intmaj" label="INTERVALLE (mins) entre les Maj (0=désactiver)" type="labelenum" values="0|5|15|30|45|60|120|240" default="0"/>
+        <setting id="delaimaj" label="DELAI (mins) à la 1re Maj, au démarrage de Kodi" type="number" default="0"/>
+        <setting id="rskin" label="REFRESH skin après chaque Maj" type="bool" default="false" />
+        <setting label="Mise en place service de Maj" type="action" option="close" action="RunPlugin(plugin://plugin.video.sendtokodiU2P/?action=mepautostart2)"/>
         <setting label="Base de données" type="lsep" />
         <setting id="skinhk" label="Num Skin HK" type="text" default="4j82p"/>
         <setting id="epg" label="EPG" type="text" default="lk4Xb"/>
