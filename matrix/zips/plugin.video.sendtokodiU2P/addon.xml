@@ -53,7 +53,7 @@
     </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">U2Pplay</summary>
-    <description lang="en">U2Pplay permet d'avoir version en Test d'U2Pplay pour streamer films et series via Kodi. Necessite un compte premium Uptobox ou Alldebrid</description>
+    <description lang="en">U2Pplay permet de streamer films et series via Kodi... Necessite un compte premium Uptobox ou Alldebrid</description>
     <disclaimer lang="en"></disclaimer>
     <platform>all</platform>
     <license>MIT License</license>
